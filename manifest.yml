@@ -1,0 +1,9 @@
+---
+applications:
+- name: mysql-api
+  memory: 512M
+  
+services:
+  - testMySql
+  
+buildpack: java_buildpack_offline
