@@ -13,7 +13,7 @@ This recipe covers two steps for monitoring and discovering the state of your PC
 Download the application jar file and the manifest.
 
   * Using the cf CLI, perform the following:
-    * cf push mysql-api -f manifest.yml -p target/[mysql-monitor-api-0.0.2-SNAPSHOT.jar](http://mysql-admin.cfn.travp.net/)
+    * cf push mysql-api -f manifest.yml -p target/[mysql-monitor-api-0.0.2-SNAPSHOT.jar](http://mysql-admin.apps.pivotal.io/)
     * cf bind-service mysql-api mySqlServiceName
 
 Your API will be reachable at https://mysql-api.your.cfinstallation.com
